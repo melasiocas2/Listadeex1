@@ -4,6 +4,6 @@ public class exercicio2 {
         int vp = 15;
         int st = ht*vp;
 
-        System.out.println("O salário total é "+st);
+        System.out.println("O salário totaghgfhl é "+st);
     }
 }
