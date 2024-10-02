@@ -1,11 +1,22 @@
-public class exercicio1 {
+import java.util.Scanner;
+public class exercicio1{
     public static void main(String[] args) {
-    int idade = 17;
-    float altura = 153;
-    double peso = 52;
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("idade:" + idade);
-        System.out.println("altura:" + altura);
-        System.out.println("peso:" + peso);
+        String nome ;
+        do {
+            System.out.println("insira seu nome ou s para sair");
+            nome =sc.nextLine();
+                if (nome.equals("s")){
+                    System.out.println("fim do programa");}
+            System.out.println("seu nome é: "+ nome);
+
+
+
+        }while (!nome.equals("s"));
+
+
+
+
     }
 }
